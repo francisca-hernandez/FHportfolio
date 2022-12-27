@@ -3,7 +3,6 @@ import React from 'react';
 // import About from './pages/About';
 // import Projects from './pages/Projects';
 
-
 //Bootstp CSS
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -20,7 +19,7 @@ function Navbar(_props) {
   // let { currentPage } = _props;
 
 
- return (
+  return (
     <Nav tabs>
       <NavbarBrand
 
@@ -28,19 +27,40 @@ function Navbar(_props) {
           marginTop: '10px',
           marginLeft: '10px',
           fontSize: '30px',
-          marginRight: '10px',
+          marginRight: '900px',
+          color: "#284f67",
+
         }}
       >
         <h1>Francisca Hernandez-Savas Portfolio</h1>
       </NavbarBrand>
-      <NavItem>
-        <NavLink href="#">Home</NavLink>
+      <NavItem >
+        <NavLink
+          style={{
+            color: "#195c83",
+            fontWeight: "bold"
+
+          }}
+          href="#">Home</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink href="#">About</NavLink>
+        <NavLink
+          style={{
+            color: "#195c83",
+            fontWeight: "bold",
+
+          }}
+          href="#">About</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink href="#">Projects</NavLink>
+        <NavLink
+          style={{
+            color: "#195c83",
+            fontWeight: "bold",
+
+          }}
+
+          href="#">Projects</NavLink>
 
 
       </NavItem>

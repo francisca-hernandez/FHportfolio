@@ -5,13 +5,18 @@ const Footer = () => {
     <footer
       className="w-100 bg-secondary p-4 fixed-bottom"
       style={{
-        marginTop: '100px', // Some regular vanilla CSS mixed in
+        marginTop: '100px', 
         fixed: true,
+        bottom: '0',
+      textAlign: 'center',
+        color: "##195c83",
+          fontWeight: "bold",
+
       }}
     >
       <div className="container">
         &copy;{new Date().getFullYear()} 
-        {/* Breakout Rm 16 &nbsp; */}
+
         <a
           href="https://github.com/francisca-hernandez"
           rel="noreferrer"
@@ -19,6 +24,10 @@ const Footer = () => {
         >
           View on Github
         </a>{' '}
+     
+       <h4 class="contact">www.linkedin.com/in/francisca-hernandez-421b3545</h4>
+      <h4 class="contact">francisca.hernandez17@gmail.com</h4>
+            
       </div>
     </footer>
   )
