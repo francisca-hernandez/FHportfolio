@@ -17,17 +17,26 @@ import Projects from './pages/Projects';
 
 
 function App() {
-  
+
   return (
-    <div>
-      <Navbar/>
-      <section>
-      <Projects/>
+   
+
+   <div>
+      <Navbar />
+     
+      <main>
+    
+        <section>
+          <Projects />
         </section>
+      
+        </main> 
       <div>
-      <Footer/>
-        </div>
-    </div>
+        <Footer />
+      </div>
+    </div >
+   
+    
   );
 }
 
