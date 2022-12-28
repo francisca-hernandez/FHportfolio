@@ -1,7 +1,6 @@
 
 import React from 'react';
-// import About from './pages/About';
-// import Projects from './pages/Projects';
+// import Projects from '../../pages/Projects';
 
 //Bootstp CSS
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -38,10 +37,10 @@ function Navbar(_props) {
         <NavLink
           style={{
             color: "#195c83",
-            fontWeight: "bold"
+               fontWeight: "bold"
 
           }}
-          href="#">Home</NavLink>
+          href="/">Home</NavLink>
       </NavItem>
       <NavItem>
         <NavLink
@@ -50,7 +49,7 @@ function Navbar(_props) {
             fontWeight: "bold",
 
           }}
-          href="#">About</NavLink>
+          href="/About/">About</NavLink>
       </NavItem>
       <NavItem>
         <NavLink
@@ -60,8 +59,18 @@ function Navbar(_props) {
 
           }}
 
-          href="#">Projects</NavLink>
+          href="/Projects/">Projects</NavLink>
 
+      </NavItem>
+      <NavItem>
+        <NavLink
+          style={{
+            color: "#195c83",
+            fontWeight: "bold",
+
+          }}
+
+          href="#">Resume</NavLink>
 
       </NavItem>
 

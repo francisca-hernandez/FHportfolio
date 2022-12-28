@@ -20,15 +20,22 @@ const ProjectCards = () => {
     return (
 
         <CardGroup>
+
+            {/* Project 1 Card */} 
             <Card>
-                   <CardImg
+                <CardImg
                     alt="Card image cap"
-                  src = "assets/images/CampMe.png"
+                    src="assets/images/CampMe.png"
                     top
                     width="100%"
                 />
-                <CardBody>
-                    <CardTitle tag="h5">
+                <CardBody> 
+                    <CardTitle style={{
+                        color: "#195c83",
+                        fontWeight: "bold",
+
+                    }}
+                        tag="h5">
                         CampMeOutside
                     </CardTitle>
                     <CardSubtitle
@@ -48,12 +55,18 @@ const ProjectCards = () => {
             <Card>
                 <CardImg
                     alt="Card image cap"
-                  src = "assets/images/Mind.png"
+                    src="assets/images/Mind.png"
                     top
                     width="100%"
                 />
+
+                {/* Project 2 Card */}
                 <CardBody>
-                    <CardTitle tag="h5">
+                    <CardTitle style={{
+                        color: "#195c83",
+                        fontWeight: "bold",
+
+                    }}tag="h5">
                         Mind Over Matter
                     </CardTitle>
                     <CardSubtitle
@@ -64,35 +77,38 @@ const ProjectCards = () => {
                     </CardSubtitle>
                     <CardText>
                         Mental health and wellness tracking application. Includes mental health resources, a daily tracker and prompts you can use to log entries associated with moods for that moment.                    </CardText>
-                        <NavLink href="https://github.com/francisca-hernandez/Mind-Over-Matter">Click here to view on Github</NavLink>
+                    <NavLink href="https://github.com/francisca-hernandez/Mind-Over-Matter">Click here to view on Github</NavLink>
                 </CardBody>
             </Card>
+
+            {/* Project 3 Card */}
             <Card>
-            <CardImg
+                <CardImg
                     alt="Card image cap"
-                  src = "assets/images/HiddenGems.png"
+                    src="assets/images/HiddenGems.png"
                     top
                     width="100%"
                 />
                 <CardBody>
-                    <CardTitle tag="h5">
+                    <CardTitle style={{
+                        color: "#195c83",
+                        fontWeight: "bold",
+
+                    }} tag="h5">
                         Hidden Gems
+                    
                     </CardTitle>
                     <CardSubtitle
                         className="mb-2 text-muted"
-                        tag="h6"
-                        
-                    >
-
-                        
-                        Project 3
+                        tag="h6" 
+                        >Project 3
                     </CardSubtitle>
                     <CardText>
                         An app to be able to login and document and save the "hidden gems" you find in oregon to be able to keep for yourself or share with others.    </CardText>
-               
+
                     <NavLink href="https://github.com/francisca-hernandez/Mind-Over-Matter">Click here to view on Github</NavLink>
-                
-                
+
+
                 </CardBody>
             </Card>
         </CardGroup>

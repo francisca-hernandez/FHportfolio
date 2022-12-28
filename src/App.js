@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 
 //pages
 import Projects from './pages/Projects';
+import About from './pages/About';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
       <Navbar />
      
       <main>
-    
+    <About />
         <section>
           <Projects />
         </section>
