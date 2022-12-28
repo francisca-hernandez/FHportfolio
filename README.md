@@ -32,7 +32,8 @@ THEN I am presented with the corresponding section below the navigation without 
 * WHEN I view the footer
 * THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
-## Contact [-Email] (francisca.hernandez17@gmail.com)
+## Contact 
+* francisca.hernandez17@gmail.com
 
-## Github link
- (https://francisca-hernandez.github.io/FHportfolio/)
+## Deployed link
+* https://francisca-hernandez.github.io/FHportfolio/
