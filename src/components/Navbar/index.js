@@ -40,7 +40,7 @@ function Navbar(_props) {
                fontWeight: "bold"
 
           }}
-          href="/">Home</NavLink>
+          href="/About">About Me</NavLink>
       </NavItem>
       <NavItem>
         <NavLink
@@ -49,17 +49,17 @@ function Navbar(_props) {
             fontWeight: "bold",
 
           }}
-          href="/About/">About</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink
-          style={{
-            color: "#195c83",
-            fontWeight: "bold",
+      //     href="/About">About</NavLink>
+      // </NavItem>
+      // <NavItem>
+      //   <NavLink
+      //     style={{
+      //       color: "#195c83",
+      //       fontWeight: "bold",
 
-          }}
+      //     }}
 
-          href="/Projects/">Projects</NavLink>
+          href=" /Projects">Projects</NavLink>
 
       </NavItem>
       <NavItem>

@@ -9,7 +9,7 @@ const Footer = () => {
         fixed: true,
         bottom: '0',
         textAlign: 'center',
-        color: "##195c83",
+        color: "#195c83",
         fontWeight: "bold",
 
       }}

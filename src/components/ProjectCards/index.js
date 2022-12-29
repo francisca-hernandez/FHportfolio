@@ -28,6 +28,7 @@ const ProjectCards = () => {
                     src="assets/images/CampMe.png"
                     top
                     width="100%"
+                    align
                 />
                 <CardBody> 
                     <CardTitle style={{

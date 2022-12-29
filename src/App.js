@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { BrowserRouter, Routes, Route,} from "react-router-dom";
+
 
 
 //CSS
@@ -21,14 +23,14 @@ function App() {
 
   return (
    
-
+<BrowserRouter>
    <div>
       <Navbar />
      
       <main>
-    <About />
+    {/* <About /> */}
         <section>
-          <Projects />
+          {/* <Projects /> */}
         </section>
       
         </main> 
@@ -36,6 +38,13 @@ function App() {
         <Footer />
       </div>
     </div >
+
+    <Routes>
+                    {/* <Route exact path="/" element={<Home />} /> */}
+                    <Route exact path="/About" element={<About />} />
+                    <Route exact path="/Projects" element={<Projects />} />
+                </Routes>
+    </BrowserRouter>
    
     
   );
