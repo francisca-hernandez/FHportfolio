@@ -17,6 +17,7 @@ import Footer from './components/Footer';
 //pages
 import Projects from './pages/Projects';
 import About from './pages/About';
+import Resume from './pages/Resume';
 
 
 function App() {
@@ -43,6 +44,8 @@ function App() {
                     {/* <Route exact path="/" element={<Home />} /> */}
                     <Route exact path="/About" element={<About />} />
                     <Route exact path="/Projects" element={<Projects />} />
+                    <Route exact path="/Resume" element={<Projects />} />
+
                 </Routes>
     </BrowserRouter>
    
