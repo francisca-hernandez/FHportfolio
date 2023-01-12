@@ -1,6 +1,9 @@
 import React from 'react';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 09c518c6abda3da769b6c800a78e17d0e48c4932
 function Resume() {
     return (
         <div className="card">
@@ -9,6 +12,7 @@ function Resume() {
         </div>
     )
 }
+<<<<<<< HEAD
 
 
 // import {
@@ -96,3 +100,7 @@ function Resume() {
 
 
 export default Resume;
+=======
+export default Resume;
+
+>>>>>>> 09c518c6abda3da769b6c800a78e17d0e48c4932
