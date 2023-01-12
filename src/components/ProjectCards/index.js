@@ -25,7 +25,7 @@ const ProjectCards = () => {
             <Card>
                 <CardImg
                     alt="Card image cap"
-                    src="assets/images/CampMe.png"
+                    src='assets/images/CampMe.png'
                     top
                     width="100%"
                     align
