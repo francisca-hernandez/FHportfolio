@@ -145,7 +145,7 @@ const ProjectCards = () => {
             <Card>
                 <CardImg
                     alt="Camp Me Outside Project"
-                    // src="assets/images/CampMe.png" 
+                    src={require("../../resume/CampMe.png")}
                     top
                     width="100%"
                     align
@@ -176,7 +176,7 @@ const ProjectCards = () => {
             <Card>
                 <CardImg
                     alt="Mind over Matter Project"
-                    src="assets/images/Mind.png"
+                    src={require("../../resume/Mind.png")}
                     top
                     width="100%"
                 />
@@ -206,7 +206,8 @@ const ProjectCards = () => {
             <Card>
                 <CardImg
                     alt="Hidden Gems Project"
-                    img src="assets/images/HiddenGems.png" 
+                    // img src="assets/images/HiddenGems.png"  
+                    src={require("../../resume/HiddenGems.png")}
                     top
                     width="100%"
                 />

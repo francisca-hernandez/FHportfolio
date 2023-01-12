@@ -51,9 +51,9 @@ const About = () => {
             <Card inverse>
                 <CardImg
                     alt="Card image cap"
-                    src="assets/images/aboutpic3.jpg"
+                    src={require("../../resume/aboutpic3.jpg")}
                     style={{
-                        height: 800
+                        height: 900
 
                     }}
                     width="80%"
@@ -89,7 +89,7 @@ const About = () => {
 
                         <img
                             alt="Card image cap"
-                            src="assets/images/FHpic.jpg"
+                            src={require("../../resume/FHpic.jpg")}
                             style={{
 
                                 width: '20%',
